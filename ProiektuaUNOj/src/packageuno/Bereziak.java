@@ -7,7 +7,7 @@ public abstract class Bereziak extends Karta {
 		// TODO Auto-generated constructor stub
 	}
 
- abstract public void kartaEgikaritu();
+ abstract public void kartaEgikaritu(Jokalaria pJok);
 		 
 	 }
 

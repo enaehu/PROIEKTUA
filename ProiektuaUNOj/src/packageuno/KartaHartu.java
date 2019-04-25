@@ -5,7 +5,11 @@ public class KartaHartu extends Bereziak {
 		super(pKolorea);
 	}
 	
-	 public void kartaEgikaritu() {
-		 
+	 public void kartaEgikaritu(Jokalaria pJok1) {
+		 int kont=0;
+		 while (kont<=4) {
+		 pJok1.hartuKartaBat();
+		 kont=kont+1;
+		 }
 	 }
 }

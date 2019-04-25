@@ -14,7 +14,7 @@ public class BatBederatzi extends Karta {
 			return this.zenb + " " +this.kolorea;
 		}
 		
-		 public void kartaEgikaritu() {
+		 public void kartaEgikaritu(Jokalaria pJok1) {
 			 
 		 }
 }

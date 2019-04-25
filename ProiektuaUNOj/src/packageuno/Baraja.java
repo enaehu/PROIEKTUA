@@ -28,7 +28,6 @@ public class Baraja {
 			InputStreamReader in= new InputStreamReader(fitx);//("C:\\archivo.txt");
 			
 			Scanner sc; 
-
 			
 			sc = new Scanner(in);
 			String galderaErantzuna = sc.nextLine();
@@ -59,10 +58,17 @@ public class Baraja {
 	  }
 	 
 	
-	/*  public void kartakBanatu() { Jokalari1 pJok1=null; Jokalari2 pJok2=null;
-	  Karta kartaBat=null; int kop=0; Iterator<Karta> itr=this.getIteradorea();
-	  while (itr.hasNext() || kop<=7) { kartaBat=itr.next();
-	  pJok1.hartuKarta(kartaBat); kartaBat= itr.next(); kop=kop+1; }
+	/*  public void kartakBanatu() { 
+	 	Jokalari1 pJok1=null; 
+	 	Jokalari2 pJok2=null;
+	  	Karta kartaBat=null;
+	   	int kop=0; 
+	   	Iterator<Karta> itr=this.getIteradorea();
+	  	while (itr.hasNext() || kop<=7) { 
+	  		kartaBat=itr.next();
+	  		pJok1.hartuKarta(kartaBat);
+	  	 	kartaBat= itr.next();
+	  	 	 kop=kop+1; }
 	  }
 	 */
 }

@@ -9,6 +9,6 @@ public  abstract class  Karta {
 	
 	}
 	
-	abstract public void kartaEgikaritu();
+	abstract public void kartaEgikaritu(Jokalaria pJok1);
 		
 }

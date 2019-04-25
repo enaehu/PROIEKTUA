@@ -5,7 +5,7 @@ public class Blokeoa extends Bereziak {
 		super(pKolorea);
 	}
 	
-	 public void kartaEgikaritu() {
+	 public void kartaEgikaritu(Jokalaria pJok1) {
 		 
 	 }
 }
